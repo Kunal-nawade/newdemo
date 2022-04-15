@@ -2,54 +2,54 @@
 <testng-results skipped="0" failed="1" ignored="2" total="11" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33273" started-at="2022-04-15T18:09:50 IST" finished-at="2022-04-15T18:10:23 IST">
+  <suite name="Suite" duration-ms="34705" started-at="2022-04-15T23:20:37 IST" finished-at="2022-04-15T23:21:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33273" started-at="2022-04-15T18:09:50 IST" finished-at="2022-04-15T18:10:23 IST">
+    <test name="Test" duration-ms="34705" started-at="2022-04-15T23:20:37 IST" finished-at="2022-04-15T23:21:12 IST">
       <class name="com.orangeHRM.TestClass.OrangeHRMTest">
-        <test-method status="PASS" signature="HRMpageOpen()[pri:0, instance:com.orangeHRM.TestClass.OrangeHRMTest@5c072e3f]" name="HRMpageOpen" is-config="true" duration-ms="194" started-at="2022-04-15T18:10:07 IST" finished-at="2022-04-15T18:10:07 IST">
+        <test-method status="PASS" signature="HRMpageOpen()[pri:0, instance:com.orangeHRM.TestClass.OrangeHRMTest@5c072e3f]" name="HRMpageOpen" is-config="true" duration-ms="156" started-at="2022-04-15T23:20:54 IST" finished-at="2022-04-15T23:20:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HRMpageOpen -->
-        <test-method status="PASS" signature="clickablContactSale()[pri:1, instance:com.orangeHRM.TestClass.OrangeHRMTest@5c072e3f]" name="clickablContactSale" duration-ms="8808" started-at="2022-04-15T18:10:07 IST" finished-at="2022-04-15T18:10:16 IST">
+        <test-method status="PASS" signature="clickablContactSale()[pri:1, instance:com.orangeHRM.TestClass.OrangeHRMTest@5c072e3f]" name="clickablContactSale" duration-ms="9483" started-at="2022-04-15T23:20:54 IST" finished-at="2022-04-15T23:21:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickablContactSale -->
-        <test-method status="PASS" signature="contactSaleInfo()[pri:2, instance:com.orangeHRM.TestClass.OrangeHRMTest@5c072e3f]" name="contactSaleInfo" duration-ms="6118" started-at="2022-04-15T18:10:16 IST" finished-at="2022-04-15T18:10:22 IST">
+        <test-method status="PASS" signature="contactSaleInfo()[pri:2, instance:com.orangeHRM.TestClass.OrangeHRMTest@5c072e3f]" name="contactSaleInfo" duration-ms="7242" started-at="2022-04-15T23:21:04 IST" finished-at="2022-04-15T23:21:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactSaleInfo -->
       </class> <!-- com.orangeHRM.TestClass.OrangeHRMTest -->
       <class name="com.orangeHRM.TestClass.loginTest">
-        <test-method status="PASS" signature="setMethod()[pri:0, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="setMethod" is-config="true" duration-ms="10372" started-at="2022-04-15T18:09:50 IST" finished-at="2022-04-15T18:10:00 IST">
+        <test-method status="PASS" signature="setMethod()[pri:0, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="setMethod" is-config="true" duration-ms="10201" started-at="2022-04-15T23:20:37 IST" finished-at="2022-04-15T23:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMethod -->
-        <test-method status="PASS" signature="visibleUsertab()[pri:1, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleUsertab" duration-ms="228" started-at="2022-04-15T18:10:00 IST" finished-at="2022-04-15T18:10:00 IST">
+        <test-method status="PASS" signature="visibleUsertab()[pri:1, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleUsertab" duration-ms="182" started-at="2022-04-15T23:20:48 IST" finished-at="2022-04-15T23:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visibleUsertab -->
-        <test-method status="PASS" signature="visiblepasswordtab()[pri:2, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visiblepasswordtab" duration-ms="70" started-at="2022-04-15T18:10:00 IST" finished-at="2022-04-15T18:10:01 IST">
+        <test-method status="PASS" signature="visiblepasswordtab()[pri:2, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visiblepasswordtab" duration-ms="51" started-at="2022-04-15T23:20:48 IST" finished-at="2022-04-15T23:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visiblepasswordtab -->
-        <test-method status="PASS" signature="visibleLoginTab()[pri:3, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleLoginTab" duration-ms="42" started-at="2022-04-15T18:10:01 IST" finished-at="2022-04-15T18:10:01 IST">
+        <test-method status="PASS" signature="visibleLoginTab()[pri:3, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleLoginTab" duration-ms="48" started-at="2022-04-15T23:20:48 IST" finished-at="2022-04-15T23:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visibleLoginTab -->
-        <test-method status="PASS" signature="visibleForgotTab()[pri:4, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleForgotTab" duration-ms="43" started-at="2022-04-15T18:10:01 IST" finished-at="2022-04-15T18:10:01 IST">
+        <test-method status="PASS" signature="visibleForgotTab()[pri:4, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleForgotTab" duration-ms="48" started-at="2022-04-15T23:20:48 IST" finished-at="2022-04-15T23:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visibleForgotTab -->
-        <test-method status="PASS" signature="visibleOrangHRMTab()[pri:5, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleOrangHRMTab" duration-ms="46" started-at="2022-04-15T18:10:01 IST" finished-at="2022-04-15T18:10:01 IST">
+        <test-method status="PASS" signature="visibleOrangHRMTab()[pri:5, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="visibleOrangHRMTab" duration-ms="56" started-at="2022-04-15T23:20:48 IST" finished-at="2022-04-15T23:20:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visibleOrangHRMTab -->
-        <test-method status="PASS" signature="forgotpassClickabl()[pri:6, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="forgotpassClickabl" duration-ms="1113" started-at="2022-04-15T18:10:01 IST" finished-at="2022-04-15T18:10:02 IST">
+        <test-method status="PASS" signature="forgotpassClickabl()[pri:6, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="forgotpassClickabl" duration-ms="1092" started-at="2022-04-15T23:20:48 IST" finished-at="2022-04-15T23:20:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotpassClickabl -->
-        <test-method status="FAIL" signature="logiFunctionality()[pri:7, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="logiFunctionality" duration-ms="5153" started-at="2022-04-15T18:10:02 IST" finished-at="2022-04-15T18:10:07 IST">
+        <test-method status="FAIL" signature="logiFunctionality()[pri:7, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="logiFunctionality" duration-ms="4796" started-at="2022-04-15T23:20:49 IST" finished-at="2022-04-15T23:20:54 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [://opensource-demo.orangehrmlive.com/index.php/dashboard] but found [https://opensource-demo.orangehrmlive.com/index.php/dashboard]]]>
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logiFunctionality -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="TearDown" is-config="true" duration-ms="788" started-at="2022-04-15T18:10:22 IST" finished-at="2022-04-15T18:10:23 IST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.orangeHRM.TestClass.loginTest@eb21112]" name="TearDown" is-config="true" duration-ms="1023" started-at="2022-04-15T23:21:11 IST" finished-at="2022-04-15T23:21:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

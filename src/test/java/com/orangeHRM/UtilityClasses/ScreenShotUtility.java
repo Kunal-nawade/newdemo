@@ -11,6 +11,10 @@ import org.openqa.selenium.io.FileHandler;
 
 import com.orangeHRM.TestClass.BaseClass;
 
+
+
+
+
 public class ScreenShotUtility extends BaseClass {
 
 	

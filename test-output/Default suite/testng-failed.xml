@@ -5,9 +5,9 @@
     <classes>
       <class name="com.orangeHRM.TestClass.loginTest">
         <methods>
-          <include name="end"/>
           <include name="logiFunctionality"/>
-          <include name="set"/>
+          <include name="setMethod"/>
+          <include name="TearDown"/>
         </methods>
       </class> <!-- com.orangeHRM.TestClass.loginTest -->
     </classes>

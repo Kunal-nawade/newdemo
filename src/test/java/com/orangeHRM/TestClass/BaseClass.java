@@ -13,13 +13,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 @Listeners(com.orangeHRM.UtilityClasses.Listener.class)
 public class BaseClass {
 
-	public static WebDriver driver;
-	public static Logger log;
+	 public static WebDriver driver;
+	 static Logger log;
 	@BeforeTest
 	public void setMethod() {
 		log=Logger.getLogger("OrangeHRM");
 	    PropertyConfigurator.configure("log4j.properties");
-		
+		System.out.println("driver="+driver);
+		System.out.println("log="+log);
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		log.info("Browser open");

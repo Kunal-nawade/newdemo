@@ -6,7 +6,7 @@ import java.io.IOException;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class Listener extends ScreenShotUtility implements ITestListener {
+public class Listener extends ScreenShotUtility  implements ITestListener {
 
 	
 	public void onTestStart(ITestResult result) {
@@ -20,7 +20,7 @@ public class Listener extends ScreenShotUtility implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		System.out.println("TestCase is failed and hence taking screenshot");
 		try {
-			ScreenShot(driver);
+			ScreenShotUtility.ScreenShot(driver);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
